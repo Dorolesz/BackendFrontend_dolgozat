@@ -1,0 +1,14 @@
+body.dark-mode{
+  background-color: rgb(37, 37, 37);
+  color: #fff;
+}
+.image-frame{
+  display: inline-block;
+  border: 0;
+  transition: border-color 0.3s;
+}
+
+#kep{
+  display: block;
+  margin: auto;
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digitális Képkeret készítő</title>
+</head>
+
+<body class="dark-mode">
+
+  <div class="container mt-5">
+    <h1>Digitális Képkeret készítő</h1>
+
+    <div class="row">
+      <div class="cool-md-6">
+        <label for="a1">A kép URL-je: </label>
+        <input type="text" class="form-control" id="a1">
+      </div>
+
+      <div class="cool-md-3">
+        <label for="a2">A kép szélessége (pixelben megadva): </label>
+        <input type="number" class="form-control" id="a2">
+      </div>
+
+      <div class="cool-md-3">
+        <label for="a3">A képkeret vastagsága: </label>
+        <input type="number" class="form-control" id="a3">
+      </div>
+
+      <div class="cool-md-6">
+        <label for="a4">A képkeret színe: </label>
+        <input type="color" class="form-control" id="a4">
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <div id="kepKeret" class="image-frame">
+        <img id="kep" src="O89vfci - Imgur.jpg" alt="">
+      </div>
+    </div>
+
+    <footer class="text-center mt-5">
+      <p>Nagy Dorina Laura 2/14S</p>
+      <button id="temaButton" class="btn btn-primary">Téma váltás</button>
+    </footer>
+
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
